@@ -13,7 +13,7 @@
 - Lombok
 
 ## Использование
-1. В `application.yaml` установите личный токен для подключения к [API Кинопоиска](https://api.kinopoisk.dev/documentation). Получить токен можно [здесь](https://t.me/kinopoiskdev_bot).
+1. В `application.yaml` установите личный токен для подключения к [API Кинопоиска](https://api.kinopoisk.dev/documentation). Получить токен можно [здесь](https://t.me/kinopoiskdev_bot)
     ```yaml
     kinopoisk-api:
       key: your_token_here
@@ -27,7 +27,7 @@
       username: your_database_url
       password: your_database_password
     ```
-3. Запустить микросервис [KinotecaClient](https://github.com/navI-minkoff/KinotecaClient).
+3. Запустить микросервис [KinotecaClient](https://github.com/navI-minkoff/KinotecaClient)
 
 ## Документация API
 После запуска 2-х микросервисов, документация API будет доступна по следующему адресу:
