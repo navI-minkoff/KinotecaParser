@@ -31,6 +31,6 @@
 
 ## Документация API
 После запуска 2-х микросервисов, документация API будет доступна по следующему адресу:
-```
-http://localhost:8082/swagger-ui/index.html
-```
+
+> http://localhost:8082/swagger-ui/index.html
+
