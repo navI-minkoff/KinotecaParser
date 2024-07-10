@@ -1,4 +1,4 @@
-package main.service.implement;
+package parser.service.impl;
 
 import parser.client.KinotecaClientRouter;
 import parser.entity.MoviePage;
@@ -12,7 +12,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import parser.service.implement.MovieServiceImplement;
+import parser.service.impl.MovieServiceImpl;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -37,7 +37,7 @@ class MovieServiceImplTest {
     private String movieName;
     private static List<String> requiredFieldNames;
     @InjectMocks
-    private MovieServiceImplement movieService;
+    private MovieServiceImpl movieService;
     @Mock
     private MovieRepository movieRepository;
     @Mock

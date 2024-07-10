@@ -1,4 +1,4 @@
-package main.service.implement;
+package parser.service.impl;
 
 import parser.entity.Movie;
 import parser.repository.MovieRepository;
@@ -8,7 +8,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import parser.service.implement.MovieAsyncServiceImplement;
+import parser.service.impl.MovieAsyncServiceImpl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +22,7 @@ class MovieAsyncServiceImplTest {
     private static Movie mockMovie;
     private static List<Movie> mockMovieList;
     @InjectMocks
-    private MovieAsyncServiceImplement movieAsyncService;
+    private MovieAsyncServiceImpl movieAsyncService;
     @Mock
     private MovieRepository movieRepository;
 

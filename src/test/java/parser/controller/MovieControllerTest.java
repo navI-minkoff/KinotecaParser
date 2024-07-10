@@ -1,6 +1,5 @@
-package main.controller;
+package parser.controller;
 
-import parser.controller.MovieController;
 import parser.entity.Movie;
 import parser.service.MovieService;
 import com.fasterxml.jackson.databind.ObjectMapper;
