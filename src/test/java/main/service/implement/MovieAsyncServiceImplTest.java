@@ -1,13 +1,14 @@
 package main.service.implement;
 
-import main.entity.Movie;
-import main.repository.MovieRepository;
+import parser.entity.Movie;
+import parser.repository.MovieRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+import parser.service.implement.MovieAsyncServiceImplement;
 
 import java.util.ArrayList;
 import java.util.List;

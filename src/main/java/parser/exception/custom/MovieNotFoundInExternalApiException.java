@@ -1,4 +1,4 @@
-package main.exception.custom;
+package parser.exception.custom;
 
 public class MovieNotFoundInExternalApiException extends RuntimeException {
 

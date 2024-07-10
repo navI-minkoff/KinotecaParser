@@ -1,4 +1,4 @@
-package main.entity;
+package parser.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;

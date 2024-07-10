@@ -1,7 +1,7 @@
-package main.controller;
+package parser.controller;
 
-import main.entity.Movie;
-import main.service.MovieService;
+import parser.entity.Movie;
+import parser.service.MovieService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

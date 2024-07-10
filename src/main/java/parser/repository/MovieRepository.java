@@ -1,6 +1,6 @@
-package main.repository;
+package parser.repository;
 
-import main.entity.Movie;
+import parser.entity.Movie;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

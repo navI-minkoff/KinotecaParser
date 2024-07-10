@@ -1,17 +1,18 @@
 package main.service.implement;
 
-import main.client.KinotecaClientRouter;
-import main.entity.MoviePage;
-import main.entity.Movie;
-import main.exception.custom.MovieNotFoundInExternalApiException;
-import main.repository.MovieRepository;
-import main.service.MovieAsyncService;
+import parser.client.KinotecaClientRouter;
+import parser.entity.MoviePage;
+import parser.entity.Movie;
+import parser.exception.custom.MovieNotFoundInExternalApiException;
+import parser.repository.MovieRepository;
+import parser.service.MovieAsyncService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+import parser.service.implement.MovieServiceImplement;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

@@ -1,8 +1,8 @@
-package main.exception;
+package parser.exception;
 
-import main.exception.custom.ExternalApiException;
-import main.exception.custom.MovieNotFoundInDbException;
-import main.exception.custom.MovieNotFoundInExternalApiException;
+import parser.exception.custom.ExternalApiException;
+import parser.exception.custom.MovieNotFoundInDbException;
+import parser.exception.custom.MovieNotFoundInExternalApiException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

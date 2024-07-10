@@ -1,4 +1,4 @@
-package main;
+package parser;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,7 +11,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 public class KinotecaParserApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(KinotecaParserApplication.class, args);
+        SpringApplication.run(parser.KinotecaParserApplication.class, args);
     }
 
 }

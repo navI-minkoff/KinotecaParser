@@ -1,6 +1,6 @@
-package main.service;
+package parser.service;
 
-import main.entity.Movie;
+import parser.entity.Movie;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package main.client;
+package parser.client;
 
 import feign.RequestInterceptor;
 import org.springframework.beans.factory.annotation.Value;

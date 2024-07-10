@@ -1,7 +1,8 @@
 package main.controller;
 
-import main.entity.Movie;
-import main.service.MovieService;
+import parser.controller.MovieController;
+import parser.entity.Movie;
+import parser.service.MovieService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.BeforeEach;

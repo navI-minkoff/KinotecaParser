@@ -1,4 +1,4 @@
-package main.exception;
+package parser.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
